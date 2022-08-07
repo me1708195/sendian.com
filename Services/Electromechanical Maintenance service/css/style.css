@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: white;
+}
+body{
+    font-family: "Poppins";
+    background-color: #121D2D;
+    height: 120vh;
+}
+a{
+    text-decoration: none;
+}
+.contenir{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*************************************
+*****************header***************
+**************************************/
+.nav-header{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.logo-header img{
+    width: 135px;
+}
+.Follow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+.text-icon-for-Follow{
+    text-align: center;
+}
+.text-icon-for-Follow h4{
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.text-icon-for-Follow i{
+    font-size: 18px;
+    margin: 0 10px;
+}
+.text-icon-for-Follow i:hover{
+    color: #DBA627;
+}
+.botne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.botne:hover{
+    background-color: #DBA627;
+}
+.call a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DBA627;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+}
+.call a i{
+    margin-right: 10px;
+}
+/*************************************
+**************end header**************
+**************************************/
+
+/*************************************
+*****************nav*****************
+**************************************/
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.nav .link ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav .link ul li {
+    margin: 0 25px;
+}
+.nav .link ul li a{
+    font-size: 17px;
+    font-weight: 500;
+}
+.nav .link ul li a:hover{
+    color: #CAAF5F;
+}
+/*************************************
+*****************end nav*****************
+**************************************/
+
+/*************************************
+*****************content*****************
+**************************************/
+.content h1{
+    letter-spacing: 2px;
+    color:#DBA627;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.content h5 a{
+    transition: 0.2s;
+}
+.content h5 a:hover{
+    color: #DBA627;
+}
+.View-Our-Services{
+    margin: auto;
+    text-align: center;
+}
+.View-Our-Services h1{
+    color: white;
+    font-size: 40px;
+}
+.lin{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.lin2{
+    width: 80px;
+    height: 2px;
+    background-color:#DBA627;
+}
+
+
+.Services-text{
+    margin-bottom: 25px;
+}
+.img-text{
+    width: 100%;
+    
+}
+.image{
+    width: 100%;
+    height: 380px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.text-service{
+    width: 100%;
+}
+.p-text{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-color:#DBA627;
+    font-size: 35px;
+}
+.text-service ul{
+    list-style: none;
+}
+.text-service ul li{
+    display: flex;
+    margin: 25px 0;
+}
+.text-service ul li i{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #DBA627;
+}
+/*************************************
+************end content*****************
+**************************************/
+
+/*************************************
+****************footer*****************
+**************************************/
+.footer{
+    width: 100%;
+    background-color: #111A29;
+}
+.content-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+}
+.img-footer{
+    width: 25%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+.img-footer img{
+    width: 75%;
+}
+.Company{
+    width: 25%;
+    height: 130%;
+}
+.Company h3{
+    font-size: 35px;
+    color: #DBA627;
+}
+.Company ul{
+    list-style: none;
+}
+.Company ul li{
+    font-size: 20px;
+    margin: 8px 0;
+}
+.Company ul li a{
+    transition: 0.4s;
+}
+.Company ul li a:hover{
+    color: #DBA627;
+}
+.Contact-Us{
+    width: 25%;
+    height: 130%;
+    margin-left: 10px;
+}
+.Contact-Us h3{
+    font-size: 35px;
+    color: #DBA627;
+}
+.Contact-Us p{
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.mar{
+    margin-bottom: 15px;
+}
+.Contact-Us a{
+    font-size: 18px;
+    transition: 0.4s;
+}
+.Contact-Us a:hover{
+    color: #DBA627;
+}
+.links-footer{
+    width: 25%;
+    height: 130%;
+    margin-left: 10px;
+}
+.links-footer h3{
+    font-weight: 900;
+    font-size: 20px;
+}
+.links-footer h4{
+    font-weight: 200;
+    margin: 10px 0;
+}
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    border: 2px solid white;
+}
+.email h5{
+    color: rgba(255, 255, 255, 0.356);
+    margin-left: 5px;
+}
+.email p{
+    color:#CAAF5F;
+    font-weight: 900;
+    margin-right: 5px;
+}
+.links-footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.links-footer ul li {
+    font-size: 18px;
+    margin: 0 5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    transition: 0.4s;
+}
+.links-footer ul li:hover{
+    background-color: white;
+}
+.links-footer ul li:hover i{
+    color: #DBA627;
+}
+.act{
+    background-color: white;
+}
+.act i{
+    color: #DBA627;
+}
+/*************************************
+****************end footer************
+**************************************/
+
+/*************************************
+****************footer2************
+**************************************/
+.footer2{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141F31;
+    text-align: center;
+}
+/*************************************
+****************end footer2************
+**************************************/
